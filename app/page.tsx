@@ -1,8 +1,8 @@
 import Hero from "@/components/Hero";
 import Intro from "@/components/Intro";
 import Industries from "@/components/Industries";
-import ProductsShowcase from "@/components/ProductsShowcase";
 import FeaturedProduct from "@/components/FeaturedProduct";
+import ProductsShowcase from "@/components/ProductsShowcase";
 import Solutions from "@/components/Solutions";
 import EcommerceCTA from "@/components/EcommerceCTA";
 import About from "@/components/About";
@@ -15,8 +15,8 @@ export default function Home() {
       <Hero />
       <Intro />
       <Industries />
-      <ProductsShowcase />
       <FeaturedProduct />
+      <ProductsShowcase />
       <Solutions />
       <EcommerceCTA />
       <About />

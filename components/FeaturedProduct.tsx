@@ -7,7 +7,7 @@ import Eyebrow from "@/components/Eyebrow";
 
 export default function FeaturedProduct() {
   return (
-    <section id="products" className="bg-white py-24 sm:py-32">
+    <section className="bg-white py-24 sm:py-32">
       <div className="mx-auto max-w-[1400px] px-6 xl:px-10">
         <div className="grid grid-cols-1 items-center gap-12 lg:grid-cols-2 lg:gap-20">
           <AnimatedSection className="relative aspect-square overflow-hidden rounded-sm">

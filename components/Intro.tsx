@@ -1,15 +1,13 @@
 import { whyRnowPoints } from "@/data/whyRnow";
 import AnimatedSection from "@/components/AnimatedSection";
+import Eyebrow from "@/components/Eyebrow";
 
 export default function Intro() {
   return (
     <section className="bg-surface py-20 sm:py-24">
       <div className="mx-auto max-w-[1400px] px-6 xl:px-10">
         <AnimatedSection>
-          <div className="flex items-center gap-3">
-            <span className="h-5 w-1.5 bg-accent" aria-hidden="true" />
-            <p className="text-lg font-bold text-accent">Why Choose RNOW?</p>
-          </div>
+          <Eyebrow>Why Choose RNOW?</Eyebrow>
           <h2 className="mt-4 max-w-5xl text-2xl font-medium leading-snug text-ink sm:text-3xl md:text-[2.25rem]">
             Experience dependable product access, responsive supply support
             and a genuine commitment to keeping your operation moving.

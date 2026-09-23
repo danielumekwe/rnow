@@ -31,7 +31,8 @@ export const siteImages = {
 
   about: unsplash("1560179707-f14e90ef3623", { width: 1800 }),
 
-  featured: unsplash("1553413077-190dd305871c", { width: 1800 }),
+  // Local, RNOW-provided photo — not a temporary reference image.
+  featured: "/images/products/featured-coiled-line-pipe.png",
 
   finalCta: unsplash("1565008447742-97f6f38c985c", { width: 2400 }),
 

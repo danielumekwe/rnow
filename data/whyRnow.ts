@@ -1,31 +1,22 @@
-import type { LucideIcon } from "lucide-react";
-import { PackageCheck, ShieldCheck, Headset, Wrench } from "lucide-react";
-
 export type WhyRnowPoint = {
-  icon: LucideIcon;
   title: string;
   description: string;
 };
 
 export const whyRnowPoints: WhyRnowPoint[] = [
   {
-    icon: PackageCheck,
-    title: "Reliable Supply",
-    description: "Products sourced with reliability and operational continuity in mind.",
+    title: "Expert guidance across every project and application",
+    description:
+      "When you work with RNOW, you get a team with real product and application knowledge across demanding industrial environments.",
   },
   {
-    icon: ShieldCheck,
-    title: "Industrial Expertise",
-    description: "Solutions designed around demanding industrial environments.",
+    title: "Streamlined delivery through a responsive distribution network",
+    description:
+      "We combine established supplier relationships with responsive logistics, helping you get the right product to the right place, on time.",
   },
   {
-    icon: Headset,
-    title: "Responsive Service",
-    description: "A team focused on helping customers find and obtain what they need.",
-  },
-  {
-    icon: Wrench,
-    title: "Technical Know-How",
-    description: "Product guidance grounded in real operational experience.",
+    title: "Flexible solutions built around how you operate",
+    description:
+      "From sourcing to project supply and technical support, we shape our approach around your operation's specific requirements.",
   },
 ];

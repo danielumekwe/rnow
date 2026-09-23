@@ -1,30 +1,38 @@
+import { whyRnowPoints } from "@/data/whyRnow";
 import AnimatedSection from "@/components/AnimatedSection";
-import Button from "@/components/Button";
 
 export default function Intro() {
   return (
-    <section className="bg-white py-24 sm:py-32">
+    <section className="bg-surface py-20 sm:py-24">
       <div className="mx-auto max-w-[1400px] px-6 xl:px-10">
-        <div className="grid grid-cols-1 gap-10 lg:grid-cols-12 lg:gap-8">
-          <AnimatedSection className="lg:col-span-7">
-            <h2 className="text-4xl font-semibold leading-[1.08] tracking-tight text-ink sm:text-5xl md:text-[3.25rem]">
-              Keeping Industry Moving
-            </h2>
-          </AnimatedSection>
-          <AnimatedSection delay={0.1} className="lg:col-span-5">
-            <p className="text-lg leading-relaxed text-gray-600">
-              RNOW Industrial Supply helps businesses source the products and
-              industrial supplies they need to keep projects, facilities and
-              operations moving. From everyday MRO items to specialized
-              industrial products, our team works to make sourcing simpler
-              for demanding operations.
-            </p>
-            <div className="mt-8">
-              <Button href="#about" variant="ghost-dark">
-                Learn More About RNOW
-              </Button>
-            </div>
-          </AnimatedSection>
+        <AnimatedSection>
+          <div className="flex items-center gap-3">
+            <span className="h-5 w-1.5 bg-accent" aria-hidden="true" />
+            <p className="text-lg font-bold text-accent">Why Choose RNOW?</p>
+          </div>
+          <h2 className="mt-4 max-w-5xl text-2xl font-medium leading-snug text-ink sm:text-3xl md:text-[2.25rem]">
+            Experience dependable product access, responsive supply support
+            and a genuine commitment to keeping your operation moving.
+          </h2>
+        </AnimatedSection>
+
+        <div className="mt-12 grid grid-cols-1 gap-10 md:grid-cols-3 md:gap-0">
+          {whyRnowPoints.map((point, i) => (
+            <AnimatedSection
+              key={point.title}
+              delay={i * 0.08}
+              className={`md:px-8 ${i === 0 ? "md:pl-0" : "md:border-l md:border-gray-300"} ${
+                i === whyRnowPoints.length - 1 ? "md:pr-0" : ""
+              }`}
+            >
+              <h3 className="text-lg font-bold leading-snug text-ink">
+                {point.title}
+              </h3>
+              <p className="mt-3 text-sm leading-relaxed text-gray-600 sm:text-base">
+                {point.description}
+              </p>
+            </AnimatedSection>
+          ))}
         </div>
       </div>
     </section>

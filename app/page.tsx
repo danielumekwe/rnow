@@ -1,6 +1,5 @@
 import Hero from "@/components/Hero";
 import Intro from "@/components/Intro";
-import WhyRnow from "@/components/WhyRnow";
 import Industries from "@/components/Industries";
 import Products from "@/components/Products";
 import FeaturedProduct from "@/components/FeaturedProduct";
@@ -15,7 +14,6 @@ export default function Home() {
     <>
       <Hero />
       <Intro />
-      <WhyRnow />
       <Industries />
       <Products />
       <FeaturedProduct />

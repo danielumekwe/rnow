@@ -7,14 +7,14 @@ export default function IndustryCarouselCard({ industry }: { industry: Industry 
   return (
     <Link
       href="#industries"
-      className="group flex w-[300px] shrink-0 snap-start flex-col overflow-hidden rounded-sm border border-gray-200 bg-white sm:w-[360px]"
+      className="group flex w-[340px] shrink-0 snap-start flex-col overflow-hidden rounded-sm border border-gray-200 bg-white sm:w-[440px] lg:w-[500px]"
     >
       <div className="relative aspect-[4/3] overflow-hidden bg-surface">
         <Image
           src={industry.image}
           alt={industry.headline}
           fill
-          sizes="(min-width: 640px) 360px, 300px"
+          sizes="(min-width: 1024px) 500px, (min-width: 640px) 440px, 340px"
           className="object-cover transition-transform duration-700 ease-out group-hover:scale-105"
         />
       </div>

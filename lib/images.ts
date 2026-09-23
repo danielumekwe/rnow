@@ -24,7 +24,8 @@ function unsplash(photoId: string, { width = 1600, quality = 75 }: UnsplashOptio
 }
 
 export const siteImages = {
-  hero: unsplash("1504328345606-18bbc8c9d7d1", { width: 2400 }),
+  // Local, RNOW-provided photo — not a temporary reference image.
+  hero: "/images/hero/hero-team.png",
 
   intro: unsplash("1581091226825-a6a2a5aee158", { width: 1800 }),
 

@@ -42,20 +42,6 @@ export const siteImages = {
     oilGas: unsplash("1516937941344-00b4e0337589", { width: 1400 }),
     energy: unsplash("1509391366360-2e959784a276", { width: 1400 }),
     manufacturing: unsplash("1581092160607-ee22621dd758", { width: 1400 }),
-    construction: unsplash("1541888946425-d81bb19240f5", { width: 1400 }),
-    marine: unsplash("1578575437130-527eed3abbec", { width: 1400 }),
-    infrastructure: unsplash("1449034446853-66c86144b0ad", { width: 1400 }),
-  },
-
-  products: {
-    pipes: unsplash("1516937941344-00b4e0337589", { width: 1200 }),
-    valves: unsplash("1517646287270-a5a9ca602e5c", { width: 1200 }),
-    pumps: unsplash("1581091226825-a6a2a5aee158", { width: 1200 }),
-    industrialEquipment: unsplash("1581092160607-ee22621dd758", { width: 1200 }),
-    toolsMro: unsplash("1572981779307-38b8cabb2407", { width: 1200 }),
-    electrical: unsplash("1621905251189-08b45d6a269e", { width: 1200 }),
-    safety: unsplash("1541888946425-d81bb19240f5", { width: 1200 }),
-    fasteners: unsplash("1530124566582-a618bc2615dc", { width: 1200 }),
   },
 
   solutions: {

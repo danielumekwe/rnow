@@ -34,28 +34,4 @@ export const industries: Industry[] = [
     ctaLabel: "Discover Manufacturing Support",
     image: siteImages.industries.manufacturing,
   },
-  {
-    slug: "construction",
-    name: "Construction",
-    headline: "Built for Demanding Construction Projects",
-    description: "Supply solutions supporting construction projects and contractors.",
-    ctaLabel: "See Construction Solutions",
-    image: siteImages.industries.construction,
-  },
-  {
-    slug: "marine",
-    name: "Marine",
-    headline: "Reliable Supply for Marine Operations",
-    description: "Industrial products for marine and offshore applications.",
-    ctaLabel: "Explore Marine Solutions",
-    image: siteImages.industries.marine,
-  },
-  {
-    slug: "infrastructure",
-    name: "Infrastructure",
-    headline: "Powering Infrastructure That Lasts",
-    description: "Products supporting infrastructure development and maintenance.",
-    ctaLabel: "Explore Infrastructure Solutions",
-    image: siteImages.industries.infrastructure,
-  },
 ];

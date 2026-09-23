@@ -39,7 +39,7 @@ export default function Header() {
       <TopBar />
 
       <div className="relative border-b border-gray-100">
-        <div className="mx-auto flex max-w-[1400px] items-center justify-between px-6 py-4 xl:px-10">
+        <div className="mx-auto flex max-w-[1400px] items-center justify-between px-6 py-2.5 xl:px-10">
           <Logo />
 
           <DesktopNav />

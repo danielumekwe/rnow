@@ -2,40 +2,44 @@ import { siteImages } from "@/lib/images";
 
 export type NewsArticle = {
   slug: string;
-  category: string;
-  date: string;
+  label: string;
   title: string;
-  excerpt: string;
+  linkText: string;
   image: string;
+  imageFit?: "cover" | "contain";
 };
 
-/** Placeholder editorial content — replace with real articles before launch. */
 export const newsArticles: NewsArticle[] = [
   {
-    slug: "strengthening-industrial-supply-chains",
-    category: "Supply Chain",
-    date: "2026-08-14",
-    title: "Strengthening Industrial Supply Chains in Uncertain Markets",
-    excerpt:
-      "How operators are working with suppliers to build more resilient sourcing strategies for critical industrial products.",
-    image: siteImages.news.article1,
+    slug: "2025-sustainability-report",
+    label: "Feature",
+    title: "RNOW Publishes 2025 Sustainability Report",
+    linkText: "Explore RNOW's sustainability strategy and progress in 2025",
+    image: siteImages.news.sustainabilityReport,
+    imageFit: "cover",
   },
   {
-    slug: "energy-sector-sourcing-trends",
-    category: "Energy",
-    date: "2026-07-02",
-    title: "What's Driving Sourcing Decisions Across the Energy Sector",
-    excerpt:
-      "A look at the sourcing priorities shaping procurement teams as energy infrastructure projects scale up.",
-    image: siteImages.news.article2,
+    slug: "wholesaler-magazine-2026-wholesaling-100",
+    label: "Feature",
+    title: "RNOW Named to Wholesaler Magazine's 2026 Wholesaling 100",
+    linkText: "Find out how RNOW ranked as a top PHCP-PVF distributor",
+    image: siteImages.news.wholesalerMagazine,
+    imageFit: "contain",
   },
   {
-    slug: "technical-support-reduces-downtime",
-    category: "Operations",
-    date: "2026-05-21",
-    title: "How Technical Product Support Helps Reduce Operational Downtime",
-    excerpt:
-      "Getting the right product specification the first time matters — here's how technical support teams help.",
-    image: siteImages.news.article3,
+    slug: "mdm-2026-top-distributors-list",
+    label: "Feature",
+    title: "RNOW Named to MDM 2026 Top Distributors List",
+    linkText: "Read how RNOW ranked on this year's list of top suppliers",
+    image: siteImages.news.mdmTopDistributors,
+    imageFit: "contain",
+  },
+  {
+    slug: "2026-supply-house-times-premier-150",
+    label: "Feature",
+    title: "RNOW Ranked in 2026 Supply House Times Premier 150",
+    linkText: "Learn how RNOW ranked against other top distributors",
+    image: siteImages.news.supplyHouseTimesPremier150,
+    imageFit: "contain",
   },
 ];

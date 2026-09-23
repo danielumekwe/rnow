@@ -49,11 +49,19 @@ export const siteImages = {
     supplyChain: unsplash("1494412574643-ff11b0a5c1c3", { width: 1600 }),
     projectSupply: unsplash("1565008447742-97f6f38c985c", { width: 1600 }),
     technicalSupport: unsplash("1503387837-b154d5074bd2", { width: 1600 }),
+
+    // Local, RNOW-provided photos — not temporary reference images.
+    partnerBanner: "/images/solutions/oilfield-team.png",
+    gridPortrait: "/images/solutions/warehouse-portrait.png",
+    gridFacility: "/images/solutions/facility-red.png",
+    gridTablet: "/images/solutions/team-tablet.png",
   },
 
   news: {
-    article1: unsplash("1590496793929-36417d3117de", { width: 1200 }),
-    article2: unsplash("1613665813446-82a78c468a1d", { width: 1200 }),
-    article3: unsplash("1531482615713-2afd69097998", { width: 1200 }),
+    // Local, RNOW-provided images — not temporary reference images.
+    sustainabilityReport: "/images/news/sustainability-report.png",
+    wholesalerMagazine: "/images/news/wholesaler-magazine.webp",
+    mdmTopDistributors: "/images/news/mdm-top-distributors.webp",
+    supplyHouseTimesPremier150: "/images/news/supply-house-times-premier-150.jpg",
   },
 } as const;

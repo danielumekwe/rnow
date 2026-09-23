@@ -1,0 +1,8 @@
+name = "rnow"
+compatibility_date = "2025-09-23"
+
+# This site is fully static (every route is prerendered by `next build`
+# with output: "export" — see next.config.ts). Wrangler deploys the
+# exported folder directly as static assets; no Worker script needed.
+[assets]
+directory = "out"

@@ -92,6 +92,17 @@ export const mainNav: NavItem[] = [
   {
     label: "About Us",
     href: "/about",
+    megaMenu: {
+      columns: [
+        {
+          heading: "Company",
+          links: [
+            { label: "About RNOW", href: "/about" },
+            { label: "Our Locations", href: "/location" },
+          ],
+        },
+      ],
+    },
   },
   {
     label: "Resources",
@@ -133,6 +144,7 @@ export const footerNav: { heading: string; links: NavLink[] }[] = [
     heading: "Company",
     links: [
       { label: "About", href: "/about" },
+      { label: "Locations", href: "/location" },
       { label: "Careers", href: "#" },
       { label: "News", href: "#news" },
       { label: "Contact", href: "#contact" },

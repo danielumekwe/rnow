@@ -6,7 +6,7 @@ import AnimatedSection from "@/components/AnimatedSection";
 export default function AboutHero() {
   return (
     <section className="relative overflow-hidden bg-ink text-white">
-      <div className="relative h-[440px] sm:h-[480px] lg:h-[560px]">
+      <div className="relative min-h-[560px] sm:min-h-[480px] lg:min-h-[560px]">
         <Image
           src={siteImages.aboutHero}
           alt="RNOW field technician reviewing operations at an industrial facility"
@@ -18,7 +18,7 @@ export default function AboutHero() {
         <div className="absolute inset-0 bg-ink/60" aria-hidden="true" />
         <div className="absolute inset-0 bg-gradient-to-r from-ink/80 via-ink/30 to-transparent" aria-hidden="true" />
 
-        <div className="absolute inset-0 flex items-center">
+        <div className="relative flex items-center py-14">
           <div className="mx-auto w-full max-w-[1400px] px-6 xl:px-10">
             <AnimatedSection>
               <h1 className="max-w-xl text-3xl font-extrabold leading-[1.05] tracking-tight sm:text-4xl lg:text-5xl">

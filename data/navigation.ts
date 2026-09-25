@@ -109,8 +109,8 @@ export const mainNav: NavItem[] = [
     href: "#news",
   },
   {
-    label: "Contact",
-    href: "#contact",
+    label: "Our Location",
+    href: "/location",
   },
 ];
 

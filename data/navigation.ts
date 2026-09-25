@@ -106,7 +106,7 @@ export const mainNav: NavItem[] = [
 export const topBarLinks: NavLink[] = [
   { label: "Careers", href: "#" },
   { label: "Supplier Portal", href: "#" },
-  { label: "Locations", href: "#" },
+  { label: "Locations", href: "/location" },
 ];
 
 export const footerNav: { heading: string; links: NavLink[] }[] = [

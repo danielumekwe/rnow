@@ -59,7 +59,7 @@ export default function Solutions() {
             data management technology, we listen to your unique needs to
             deliver unmatched solutions and services for any industry.
           </p>
-          <Button href="#about" variant="secondary" className="mt-8 self-start bg-accent hover:bg-accent-dark">
+          <Button href="/about" variant="secondary" className="mt-8 self-start bg-accent hover:bg-accent-dark">
             Explore Who We Are
           </Button>
         </div>

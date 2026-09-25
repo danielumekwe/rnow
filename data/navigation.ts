@@ -91,7 +91,7 @@ export const mainNav: NavItem[] = [
   },
   {
     label: "About Us",
-    href: "#about",
+    href: "/about",
   },
   {
     label: "Resources",
@@ -132,7 +132,7 @@ export const footerNav: { heading: string; links: NavLink[] }[] = [
   {
     heading: "Company",
     links: [
-      { label: "About", href: "#about" },
+      { label: "About", href: "/about" },
       { label: "Careers", href: "#" },
       { label: "News", href: "#news" },
       { label: "Contact", href: "#contact" },

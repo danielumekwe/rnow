@@ -15,6 +15,8 @@ export default function AboutHero() {
           sizes="100vw"
           className="object-cover"
         />
+        <div className="absolute inset-0 bg-ink/60" aria-hidden="true" />
+        <div className="absolute inset-0 bg-gradient-to-r from-ink/80 via-ink/30 to-transparent" aria-hidden="true" />
 
         <div className="absolute inset-0 flex items-center">
           <div className="mx-auto w-full max-w-[1400px] px-6 xl:px-10">

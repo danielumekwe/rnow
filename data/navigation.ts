@@ -68,26 +68,27 @@ export const mainNav: NavItem[] = [
   },
   {
     label: "Industries",
-    href: "#industries",
+    href: "/industries",
     megaMenu: {
       columns: [
         {
           heading: "Industries We Serve",
           links: [
-            { label: "Oil & Gas", href: "#industries" },
-            { label: "Energy", href: "#industries" },
-            { label: "Manufacturing", href: "#industries" },
+            { label: "Oil & Gas Operations", href: "/industries#oil-gas-operations" },
+            { label: "Alternative Energy & Renewables", href: "/industries#renewables" },
+            { label: "Mining & Minerals", href: "/industries#mining-minerals" },
           ],
         },
         {
           heading: "",
           links: [
-            { label: "Construction", href: "#industries" },
-            { label: "Marine", href: "#industries" },
-            { label: "Infrastructure", href: "#industries" },
+            { label: "Chemical Processing", href: "/industries#chemical-processing" },
+            { label: "Water & Wastewater", href: "/industries#water-wastewater" },
+            { label: "Pharmaceutical", href: "/industries#pharmaceutical" },
           ],
         },
       ],
+      featured: { label: "View all industries", href: "/industries" },
     },
   },
   {

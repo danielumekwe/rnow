@@ -34,6 +34,27 @@ export const siteImages = {
   // Local, RNOW-provided photo — not a temporary reference image.
   aboutHero: "/hero2.png",
 
+  industriesPage: {
+    // Local, RNOW-provided photos — not temporary reference images.
+    hero: "/images/industries/hero.png",
+    benefits: "/images/industries/benefits.png",
+    technicalSupport: "/images/industries/technical-support.png",
+    closing: "/images/industries/closing.png",
+
+    productGrid: [
+      unsplash("1581092160607-ee22621dd758", { width: 900 }), // compressor units
+      unsplash("1581091226825-a6a2a5aee158", { width: 900 }), // pump skid
+      unsplash("1517502884422-41eaead166d4", { width: 900 }), // red valve assembly
+      unsplash("1558618666-fcd25c85cd64", { width: 900 }), // cable spools
+      unsplash("1504328345606-18bbc8c9d7d1", { width: 900 }), // drums & gauges
+      unsplash("1581094794329-c8112a89af12", { width: 900 }), // fittings & gauges
+      unsplash("1590959651373-a3db0f38a961", { width: 900 }), // valves collage
+      unsplash("1487958449943-2429e8be8625", { width: 900 }), // wire spool
+      unsplash("1565043666747-69f6646db940", { width: 900 }), // pipe threading
+      unsplash("1581092918056-0c4c3acd3789", { width: 900 }), // tool kit
+    ],
+  },
+
   solutionsPage: {
     // Local, RNOW-provided photos — not temporary reference images.
     hero: "/images/solutions-page/hero.png",

@@ -42,16 +42,15 @@ export const siteImages = {
     closing: "/images/industries/closing.png",
 
     productGrid: [
-      unsplash("1581092160607-ee22621dd758", { width: 900 }), // compressor units
-      unsplash("1581091226825-a6a2a5aee158", { width: 900 }), // pump skid
-      unsplash("1517502884422-41eaead166d4", { width: 900 }), // red valve assembly
-      unsplash("1558618666-fcd25c85cd64", { width: 900 }), // cable spools
-      unsplash("1504328345606-18bbc8c9d7d1", { width: 900 }), // drums & gauges
-      unsplash("1581094794329-c8112a89af12", { width: 900 }), // fittings & gauges
-      unsplash("1590959651373-a3db0f38a961", { width: 900 }), // valves collage
-      unsplash("1487958449943-2429e8be8625", { width: 900 }), // wire spool
-      unsplash("1565043666747-69f6646db940", { width: 900 }), // pipe threading
-      unsplash("1581092918056-0c4c3acd3789", { width: 900 }), // tool kit
+      unsplash("1695060601967-7fb135446f67", { width: 900 }), // pumpjacks
+      unsplash("1780034766246-68bab7c0ce00", { width: 900 }), // valve actuator
+      unsplash("1774019883172-a89730a86500", { width: 900 }), // industrial valve
+      unsplash("1639244315109-b6e39e646181", { width: 900 }), // pressure gauge & tank
+      unsplash("1513827574967-e763dd0bc329", { width: 900 }), // pressure gauge close-up
+      unsplash("1643550488350-c8a3b36e2e56", { width: 900 }), // drill bits
+      unsplash("1705579609022-a7a2266b6226", { width: 900 }), // PPE / safety vest
+      unsplash("1757573538081-c469f75cdd7a", { width: 900 }), // industrial pipes
+      unsplash("1745921204896-c2011440a4e2", { width: 900 }), // plant machinery & gauges
     ],
   },
 

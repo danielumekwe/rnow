@@ -49,20 +49,21 @@ export const mainNav: NavItem[] = [
   },
   {
     label: "Solutions",
-    href: "#solutions",
+    href: "/solutions",
     megaMenu: {
       columns: [
         {
           heading: "Solutions",
           links: [
-            { label: "Procurement & Sourcing", href: "#solutions" },
-            { label: "Supply Chain Support", href: "#solutions" },
-            { label: "Industrial Project Supply", href: "#solutions" },
-            { label: "Technical Product Support", href: "#solutions" },
+            { label: "Digital Solutions and Technology", href: "/solutions#digital-solutions-technology" },
+            { label: "Engineering, Design and Fabrication", href: "/solutions#engineering-design-fabrication" },
+            { label: "Safety Services and Turnaround Support", href: "/solutions#safety-services-turnaround-support" },
+            { label: "Supply Chain and Materials Management", href: "/solutions#supply-chain-materials-management" },
+            { label: "Valve Actuation and Automation", href: "/solutions#valve-actuation-automation" },
           ],
         },
       ],
-      featured: { label: "Talk to our team", href: "#contact" },
+      featured: { label: "View all solutions", href: "/solutions" },
     },
   },
   {
@@ -134,10 +135,10 @@ export const footerNav: { heading: string; links: NavLink[] }[] = [
   {
     heading: "Solutions",
     links: [
-      { label: "Procurement", href: "#solutions" },
-      { label: "Supply Chain", href: "#solutions" },
-      { label: "Project Supply", href: "#solutions" },
-      { label: "Technical Support", href: "#solutions" },
+      { label: "Digital Solutions and Technology", href: "/solutions#digital-solutions-technology" },
+      { label: "Engineering, Design and Fabrication", href: "/solutions#engineering-design-fabrication" },
+      { label: "Supply Chain and Materials Management", href: "/solutions#supply-chain-materials-management" },
+      { label: "Valve Actuation and Automation", href: "/solutions#valve-actuation-automation" },
     ],
   },
   {

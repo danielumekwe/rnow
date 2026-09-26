@@ -34,6 +34,14 @@ export const siteImages = {
   // Local, RNOW-provided photo — not a temporary reference image.
   aboutHero: "/hero2.png",
 
+  solutionsPage: {
+    // Local, RNOW-provided photos — not temporary reference images.
+    hero: "/images/solutions-page/hero.png",
+    tailored: "/images/solutions/oilfield-team.png",
+    supplyChain: "/images/solutions/team-tablet.png",
+    partner: "/images/solutions-page/partner.png",
+  },
+
   aboutOverview: {
     // Local, RNOW-provided photos — not temporary reference images.
     visionCollage: "/images/about/vision-collage.png",

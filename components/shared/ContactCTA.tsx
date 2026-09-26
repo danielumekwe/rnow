@@ -2,7 +2,17 @@ import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import AnimatedSection from "@/components/AnimatedSection";
 
-export default function IndustriesRunStronger() {
+type ContactCTAProps = {
+  eyebrow?: string;
+  label: string;
+  href?: string;
+};
+
+export default function ContactCTA({
+  eyebrow = "RUN STRONGER WITH RNOW",
+  label,
+  href = "/contact",
+}: ContactCTAProps) {
   return (
     <section className="bg-white py-10">
       <div className="mx-auto max-w-[1400px] px-6 xl:px-10">
@@ -11,13 +21,13 @@ export default function IndustriesRunStronger() {
             <span className="hidden h-px w-16 shrink-0 bg-accent sm:mt-3 sm:block" aria-hidden="true" />
             <div>
               <p className="text-xs font-bold tracking-widest text-gray-500">
-                RUN STRONGER WITH RNOW
+                {eyebrow}
               </p>
               <Link
-                href="/contact"
+                href={href}
                 className="group mt-3 inline-flex items-center gap-2 text-xl font-semibold text-accent sm:text-2xl"
               >
-                Get in touch with a customer representative now
+                {label}
                 <ArrowRight
                   className="h-5 w-5 transition-transform duration-200 group-hover:translate-x-1"
                   aria-hidden="true"

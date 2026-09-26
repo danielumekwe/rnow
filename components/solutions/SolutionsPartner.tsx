@@ -22,7 +22,7 @@ export default function SolutionsPartner() {
               the difference!
             </p>
             <Link
-              href="#contact"
+              href="/contact"
               className="group mt-6 inline-flex items-center gap-2.5 text-base font-semibold text-accent"
             >
               <CircleHelp className="h-5 w-5" aria-hidden="true" />

@@ -97,8 +97,8 @@ export default function Footer() {
         <div className="mx-auto flex max-w-[1400px] flex-col items-center justify-between gap-3 px-6 py-6 text-xs text-gray-500 sm:flex-row xl:px-10">
           <p>&copy; {new Date().getFullYear()} {siteConfig.name}. All rights reserved.</p>
           <div className="flex items-center gap-6">
-            <Link href="#" className="hover:text-gray-300">Privacy Policy</Link>
-            <Link href="#" className="hover:text-gray-300">Terms of Use</Link>
+            <Link href="/privacy-policy" className="hover:text-gray-300">Privacy Policy</Link>
+            <Link href="/terms-of-use" className="hover:text-gray-300">Terms of Use</Link>
           </div>
         </div>
       </div>

@@ -59,7 +59,7 @@ export default function AboutWhatWeOffer() {
               </li>
             </ul>
             <Link
-              href="#products"
+              href="/products-and-services"
               className="group mt-6 inline-flex items-center gap-2 text-sm font-bold text-accent"
             >
               See our product offering and services

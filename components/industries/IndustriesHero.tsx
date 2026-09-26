@@ -49,7 +49,7 @@ export default function IndustriesHero() {
                 profitability.
               </p>
               <div className="mt-8">
-                <Button href="#contact" variant="primary" showArrow={false}>
+                <Button href="/contact" variant="primary" showArrow={false}>
                   Contact Sales
                 </Button>
               </div>

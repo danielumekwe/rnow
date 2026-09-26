@@ -4,7 +4,7 @@ import type { NewsArticle } from "@/data/news";
 
 export default function NewsCard({ article }: { article: NewsArticle }) {
   return (
-    <Link href={`#news`} className="group flex flex-col">
+    <Link href={`/news#${article.slug}`} className="group flex flex-col">
       <div className="relative aspect-[16/10] overflow-hidden bg-surface">
         <Image
           src={article.image}

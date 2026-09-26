@@ -43,10 +43,10 @@ export default function AboutHero() {
                 Choose RNOW. Empower your operations. Run Stronger™ today.
               </p>
               <div className="mt-8 flex flex-col gap-4 sm:flex-row">
-                <Button href="#contact" variant="primary" showArrow={false}>
+                <Button href="/contact" variant="primary" showArrow={false}>
                   Contact Sales
                 </Button>
-                <Button href="#brands" variant="ghost-light" showArrow={false}>
+                <Button href="/about/brands" variant="ghost-light" showArrow={false}>
                   About RNOW Affiliated Brands
                 </Button>
               </div>

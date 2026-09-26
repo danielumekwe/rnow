@@ -6,7 +6,7 @@ import type { Industry } from "@/data/industries";
 export default function IndustryCarouselCard({ industry }: { industry: Industry }) {
   return (
     <Link
-      href="#industries"
+      href="/industries"
       className="group flex w-[340px] shrink-0 snap-start flex-col overflow-hidden rounded-sm border border-gray-200 bg-white sm:w-[440px] lg:w-[500px]"
     >
       <div className="relative aspect-[4/3] overflow-hidden bg-surface">

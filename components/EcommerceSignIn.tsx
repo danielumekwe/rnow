@@ -25,13 +25,13 @@ export default function EcommerceSignIn() {
             ecommerce site.
           </h2>
           <div className="mt-8 flex flex-col items-start gap-6 sm:flex-row sm:items-center">
-            <Button href="#sign-in" variant="primary">
+            <Button href="/sign-in" variant="primary">
               Sign In
             </Button>
             <p className="text-sm text-gray-600">
               Don&apos;t have an account?{" "}
               <Link
-                href="#create-account"
+                href="/create-account"
                 className="font-semibold text-accent hover:text-accent-dark"
               >
                 Create account

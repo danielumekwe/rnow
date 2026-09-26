@@ -28,7 +28,7 @@ export default function AboutBrands() {
               clientele.
             </p>
             <div className="mt-8">
-              <Button href="#brands" variant="primary" showArrow={false}>
+              <Button href="/about/brands" variant="primary" showArrow={false}>
                 Learn About RNOW Brands
               </Button>
             </div>

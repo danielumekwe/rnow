@@ -30,10 +30,10 @@ export default function Hero() {
                 {siteConfig.description.split(".")[0]}.
               </p>
               <div className="mt-8 flex flex-col gap-4 sm:flex-row">
-                <Button href="#products" variant="primary" showArrow={false}>
+                <Button href="/products-and-services" variant="primary" showArrow={false}>
                   Explore Products
                 </Button>
-                <Button href="#contact" variant="ghost-light" showArrow={false}>
+                <Button href="/contact" variant="ghost-light" showArrow={false}>
                   Talk to Us
                 </Button>
               </div>

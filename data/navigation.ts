@@ -22,29 +22,29 @@ export type NavItem = {
 export const mainNav: NavItem[] = [
   {
     label: "Products & Services",
-    href: "#products",
+    href: "/products-and-services",
     megaMenu: {
       columns: [
         {
           heading: "Products",
           links: [
-            { label: "Pipes & Fittings", href: "#products" },
-            { label: "Valves", href: "#products" },
-            { label: "Pumps", href: "#products" },
-            { label: "Industrial Equipment", href: "#products" },
+            { label: "Pipes & Fittings", href: "/products-and-services/pipes-fittings" },
+            { label: "Valves", href: "/products-and-services/valves" },
+            { label: "Pumps", href: "/products-and-services/pumps" },
+            { label: "Industrial Equipment", href: "/products-and-services/industrial-equipment" },
           ],
         },
         {
           heading: "Services",
           links: [
-            { label: "Tools & MRO", href: "#products" },
-            { label: "Electrical Products", href: "#products" },
-            { label: "Safety Equipment", href: "#products" },
-            { label: "Fasteners & Hardware", href: "#products" },
+            { label: "Tools & MRO", href: "/products-and-services/tools-mro" },
+            { label: "Electrical Products", href: "/products-and-services/electrical-products" },
+            { label: "Safety Equipment", href: "/products-and-services/safety-equipment" },
+            { label: "Fasteners & Hardware", href: "/products-and-services/fasteners-hardware" },
           ],
         },
       ],
-      featured: { label: "View all products", href: "#products" },
+      featured: { label: "View all products", href: "/products-and-services" },
     },
   },
   {
@@ -108,7 +108,7 @@ export const mainNav: NavItem[] = [
   },
   {
     label: "Resources",
-    href: "#news",
+    href: "/news",
   },
   {
     label: "Our Location",
@@ -117,8 +117,8 @@ export const mainNav: NavItem[] = [
 ];
 
 export const topBarLinks: NavLink[] = [
-  { label: "Careers", href: "#" },
-  { label: "Supplier Portal", href: "#" },
+  { label: "Careers", href: "/careers" },
+  { label: "Supplier Portal", href: "/supplier-portal" },
   { label: "Locations", href: "/location" },
 ];
 
@@ -126,11 +126,11 @@ export const footerNav: { heading: string; links: NavLink[] }[] = [
   {
     heading: "Products & Services",
     links: [
-      { label: "Products", href: "#products" },
-      { label: "Industrial Equipment", href: "#products" },
-      { label: "Tools & MRO", href: "#products" },
-      { label: "Electrical", href: "#products" },
-      { label: "Safety", href: "#products" },
+      { label: "Products", href: "/products-and-services" },
+      { label: "Industrial Equipment", href: "/products-and-services/industrial-equipment" },
+      { label: "Tools & MRO", href: "/products-and-services/tools-mro" },
+      { label: "Electrical", href: "/products-and-services/electrical-products" },
+      { label: "Safety", href: "/products-and-services/safety-equipment" },
     ],
   },
   {
@@ -147,9 +147,9 @@ export const footerNav: { heading: string; links: NavLink[] }[] = [
     links: [
       { label: "About", href: "/about" },
       { label: "Locations", href: "/location" },
-      { label: "Careers", href: "#" },
-      { label: "News", href: "#news" },
-      { label: "Contact", href: "#contact" },
+      { label: "Careers", href: "/careers" },
+      { label: "News", href: "/news" },
+      { label: "Contact", href: "/contact" },
     ],
   },
 ];

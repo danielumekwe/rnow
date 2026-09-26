@@ -117,7 +117,7 @@ export default function MobileNav({ open, onClose }: MobileNavProps) {
               <Phone className="h-4 w-4" aria-hidden="true" />
               {siteConfig.contact.phone}
             </a>
-            <Button href="#contact" variant="primary" onClick={onClose} className="w-full justify-center">
+            <Button href="/contact" variant="primary" onClick={onClose} className="w-full justify-center">
               Contact Us
             </Button>
           </div>

@@ -55,7 +55,7 @@ export default function Header() {
               <SearchIcon className="h-5 w-5" aria-hidden="true" />
             </button>
 
-            <Button href="#contact" variant="primary" showArrow={false} className="hidden lg:inline-flex">
+            <Button href="/contact" variant="primary" showArrow={false} className="hidden lg:inline-flex">
               Talk to Us
             </Button>
 

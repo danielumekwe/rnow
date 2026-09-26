@@ -44,7 +44,7 @@ export default function AboutLegacyTimeline() {
                 RUN STRONGER WITH RNOW
               </p>
               <Link
-                href="#contact"
+                href="/contact"
                 className="group mt-3 inline-flex items-center gap-2 text-xl font-semibold text-accent sm:text-2xl"
               >
                 Connect with an RNOW representative to learn more

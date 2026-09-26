@@ -24,7 +24,7 @@ export default function ProductsShowcase() {
               equipment.
             </h2>
             <Link
-              href="#contact"
+              href="/products-and-services"
               className="group mt-7 inline-flex items-center gap-1 text-base font-bold text-accent"
             >
               Explore Products
@@ -41,7 +41,7 @@ export default function ProductsShowcase() {
               return (
                 <Link
                   key={tile.title}
-                  href="#contact"
+                  href={tile.href}
                   className={`group relative flex aspect-[3/4] flex-col justify-between overflow-hidden p-6 text-white transition-transform duration-300 ease-out hover:z-10 hover:-translate-y-1.5 hover:shadow-xl sm:p-7 ${toneClasses[tile.tone]}`}
                 >
                   <Icon

@@ -4,7 +4,7 @@ import Link from "next/link";
 import { useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { ChevronDown, Phone, X } from "lucide-react";
-import { mainNav } from "@/data/navigation";
+import { mainNav, type NavLink } from "@/data/navigation";
 import { siteConfig } from "@/data/site";
 import Button from "@/components/Button";
 
@@ -12,6 +12,37 @@ type MobileNavProps = {
   open: boolean;
   onClose: () => void;
 };
+
+function MobileLink({ link, onClose }: { link: NavLink; onClose: () => void }) {
+  return (
+    <li>
+      <Link
+        href={link.href}
+        onClick={onClose}
+        className={`text-sm transition-colors hover:text-white ${
+          link.children ? "font-bold text-white" : "font-medium text-gray-300"
+        }`}
+      >
+        {link.label}
+      </Link>
+      {link.children && (
+        <ul className="mt-2 space-y-2 border-l border-white/15 pl-4">
+          {link.children.map((c) => (
+            <li key={c.href}>
+              <Link
+                href={c.href}
+                onClick={onClose}
+                className="text-sm text-gray-400 transition-colors hover:text-white"
+              >
+                {c.label}
+              </Link>
+            </li>
+          ))}
+        </ul>
+      )}
+    </li>
+  );
+}
 
 export default function MobileNav({ open, onClose }: MobileNavProps) {
   const [expanded, setExpanded] = useState<string | null>(null);
@@ -86,20 +117,17 @@ export default function MobileNav({ open, onClose }: MobileNavProps) {
                           transition={{ duration: 0.2 }}
                           className="overflow-hidden"
                         >
-                          <div className="grid grid-cols-2 gap-x-6 gap-y-4 pb-5 pl-1">
-                            {item.megaMenu.columns.map((col) =>
-                              col.links.map((link) => (
-                                <Link
-                                  key={link.label}
-                                  href={link.href}
-                                  onClick={onClose}
-                                  className="text-sm font-medium text-gray-300 transition-colors hover:text-white"
-                                >
-                                  {link.label}
-                                </Link>
-                              )),
-                            )}
-                          </div>
+                          <ul
+                            className={
+                              item.megaMenu.columns.some((c) => c.links.some((l) => l.children))
+                                ? "space-y-4 pb-5 pl-1"
+                                : "grid grid-cols-2 gap-x-6 gap-y-4 pb-5 pl-1"
+                            }
+                          >
+                            {item.megaMenu.columns.flatMap((col) => col.links).map((link) => (
+                              <MobileLink key={link.label} link={link} onClose={onClose} />
+                            ))}
+                          </ul>
                         </motion.div>
                       )}
                     </AnimatePresence>

@@ -1,8 +1,24 @@
+import { aboutTree } from "@/data/about/sitemap";
+import type { AboutNode } from "@/data/about/types";
+
 export type NavLink = {
   label: string;
   href: string;
   description?: string;
+  /** Optional nested links, shown indented under this link. */
+  children?: NavLink[];
 };
+
+/** Converts an About tree node into a nav link (with children). */
+function aboutNavLink(node: AboutNode): NavLink {
+  return {
+    label: node.label,
+    href: node.path,
+    children: node.children?.map(aboutNavLink),
+  };
+}
+
+const aboutSections = (aboutTree.children ?? []).map(aboutNavLink);
 
 export type NavItem = {
   label: string;
@@ -99,14 +115,16 @@ export const mainNav: NavItem[] = [
     href: "/about",
     megaMenu: {
       columns: [
+        { heading: "", links: aboutSections.slice(0, 2) },
         {
-          heading: "Company",
+          heading: "",
           links: [
-            { label: "About RNOW", href: "/about" },
+            ...aboutSections.slice(2),
             { label: "Our Locations", href: "/location" },
           ],
         },
       ],
+      featured: { label: "About RNOW overview", href: "/about" },
     },
   },
   {
@@ -120,7 +138,7 @@ export const mainNav: NavItem[] = [
 ];
 
 export const topBarLinks: NavLink[] = [
-  { label: "Careers", href: "/careers" },
+  { label: "Careers", href: "/about/careers" },
   { label: "Supplier Portal", href: "/supplier-portal" },
   { label: "Locations", href: "/location" },
 ];
@@ -150,8 +168,10 @@ export const footerNav: { heading: string; links: NavLink[] }[] = [
     links: [
       { label: "About", href: "/about" },
       { label: "Locations", href: "/location" },
-      { label: "Careers", href: "/careers" },
-      { label: "News", href: "/news" },
+      { label: "Careers", href: "/about/careers" },
+      { label: "News & Events", href: "/about/news" },
+      { label: "Why RNOW", href: "/about/why-rnow" },
+      { label: "Corporate Citizenship", href: "/about/corporate-citizenship" },
       { label: "Contact", href: "/contact" },
     ],
   },

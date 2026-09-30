@@ -11,7 +11,7 @@ function MenuLink({ link }: { link: NavLink }) {
     <li>
       <Link
         href={link.href}
-        className={`text-sm transition-colors hover:text-accent ${
+        className={`text-base transition-colors hover:text-accent ${
           link.children ? "font-bold text-ink" : "font-medium text-ink"
         }`}
       >
@@ -23,7 +23,7 @@ function MenuLink({ link }: { link: NavLink }) {
             <li key={c.href}>
               <Link
                 href={c.href}
-                className="text-sm text-gray-600 transition-colors hover:text-accent"
+                className="text-[15px] text-gray-600 transition-colors hover:text-accent"
               >
                 {c.label}
               </Link>
@@ -63,7 +63,7 @@ export default function DesktopNav() {
             >
               <Link
                 href={item.href}
-                className="flex items-center gap-1 px-4 py-7 text-sm font-semibold tracking-wide text-ink transition-colors hover:text-accent"
+                className="flex items-center gap-1 whitespace-nowrap px-2.5 py-7 text-[15px] font-semibold tracking-wide xl:px-4 xl:text-base text-ink transition-colors hover:text-accent"
                 aria-expanded={item.megaMenu ? isOpen : undefined}
                 onFocus={() => item.megaMenu && setOpenLabel(item.label)}
               >
@@ -87,8 +87,8 @@ export default function DesktopNav() {
                     transition={{ duration: 0.18, ease: "easeOut" }}
                     className={`absolute left-1/2 top-full z-40 -translate-x-1/2 rounded-sm border border-gray-200 bg-white p-8 shadow-xl ${
                       item.megaMenu.columns.some((c) => c.links.some((l) => l.children))
-                        ? "w-[min(94vw,760px)]"
-                        : "w-[min(90vw,520px)]"
+                        ? "w-[min(94vw,800px)]"
+                        : "w-[min(90vw,560px)]"
                     }`}
                   >
                     <div className={`grid gap-8 ${item.megaMenu.columns.length > 1 ? "grid-cols-2" : "grid-cols-1"}`}>
@@ -111,7 +111,7 @@ export default function DesktopNav() {
                       <div className="mt-6 border-t border-gray-100 pt-5">
                         <Link
                           href={item.megaMenu.featured.href}
-                          className="text-sm font-semibold text-accent hover:text-accent-dark"
+                          className="text-base font-semibold text-accent hover:text-accent-dark"
                         >
                           {item.megaMenu.featured.label} &rarr;
                         </Link>

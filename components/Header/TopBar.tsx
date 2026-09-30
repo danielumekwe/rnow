@@ -5,7 +5,7 @@ import { siteConfig } from "@/data/site";
 export default function TopBar() {
   return (
     <div className="hidden border-b border-white/10 bg-ink text-gray-300 lg:block">
-      <div className="mx-auto flex max-w-[1400px] items-center justify-between px-6 py-2 text-xs xl:px-10">
+      <div className="mx-auto flex max-w-[1400px] items-center justify-between px-6 py-2 text-sm xl:px-10">
         <ul className="flex items-center gap-6">
           {topBarLinks.map((link) => (
             <li key={link.label}>

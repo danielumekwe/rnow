@@ -19,7 +19,7 @@ function MobileLink({ link, onClose }: { link: NavLink; onClose: () => void }) {
       <Link
         href={link.href}
         onClick={onClose}
-        className={`text-sm transition-colors hover:text-white ${
+        className={`text-base transition-colors hover:text-white ${
           link.children ? "font-bold text-white" : "font-medium text-gray-300"
         }`}
       >
@@ -32,7 +32,7 @@ function MobileLink({ link, onClose }: { link: NavLink; onClose: () => void }) {
               <Link
                 href={c.href}
                 onClick={onClose}
-                className="text-sm text-gray-400 transition-colors hover:text-white"
+                className="text-[15px] text-gray-400 transition-colors hover:text-white"
               >
                 {c.label}
               </Link>
@@ -140,7 +140,7 @@ export default function MobileNav({ open, onClose }: MobileNavProps) {
           <div className="space-y-4 border-t border-white/10 px-6 py-6">
             <a
               href={`tel:${siteConfig.contact.phoneHref}`}
-              className="flex items-center gap-2.5 text-sm font-medium text-gray-300"
+              className="flex items-center gap-2.5 text-base font-medium text-gray-300"
             >
               <Phone className="h-4 w-4" aria-hidden="true" />
               {siteConfig.contact.phone}

@@ -28,10 +28,17 @@ export const mainNav: NavItem[] = [
         {
           heading: "Products",
           links: [
-            { label: "Pipes & Fittings", href: "/products-and-services/pipes-fittings" },
             { label: "Valves", href: "/products-and-services/valves" },
             { label: "Pumps", href: "/products-and-services/pumps" },
             { label: "Industrial Equipment", href: "/products-and-services/industrial-equipment" },
+            { label: "Air Compressors & Blowers", href: "/products-and-services/compressors" },
+            { label: "Artificial Lift Solutions", href: "/products-and-services/artificial-lift" },
+            { label: "Drilling & Completions", href: "/products-and-services/drilling-completions" },
+            { label: "Industrial & Facility Supplies", href: "/products-and-services/industrial-facility-supplies" },
+            { label: "Instrumentation & Measurement", href: "/products-and-services/instrumentation-measurement" },
+            { label: "Paints & Coatings", href: "/products-and-services/paints-coatings" },
+            { label: "Pipe, Valves & Fittings (PVF)", href: "/products-and-services/pvf" },
+            { label: "Power Generation", href: "/products-and-services/power-generation" },
           ],
         },
         {

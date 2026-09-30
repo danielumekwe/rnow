@@ -11,20 +11,6 @@ import { siteImages } from "@/lib/images";
 
 export const productCategories: ProductCategory[] = [
   {
-    slug: "pipes-fittings",
-    label: "Pipes & Fittings",
-    headline: "Pipes, Valves, Fittings & Flanges",
-    description:
-      "RNOW stocks a comprehensive range of carbon steel, stainless and alloy pipe, fittings and flanges for upstream, midstream and downstream applications. Our branch network and coiled line pipe program keep critical-path materials moving so your crews stay on schedule.",
-    bullets: [
-      "Carbon steel, stainless and alloy pipe in a range of schedules and sizes",
-      "Threaded, welded and flanged fittings for process and gathering systems",
-      "Coiled line pipe for upstream applications that reduce installation time",
-      "Same-day and will-call fulfillment from our branch network",
-    ],
-    image: siteImages.featured,
-  },
-  {
     slug: "valves",
     label: "Valves",
     headline: "Valves and Flow Control",

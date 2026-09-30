@@ -33,7 +33,7 @@ export default function FeaturedProduct() {
               upstream applications.
             </p>
             <Link
-              href="/products-and-services/pipes-fittings"
+              href="/products-and-services/pvf"
               className="group mt-7 inline-flex items-center gap-2 text-base font-bold text-accent"
             >
               Explore Coiled Line Pipe Solutions

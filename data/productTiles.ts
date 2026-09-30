@@ -13,7 +13,7 @@ export const productTiles: ProductTile[] = [
     icon: Waypoints,
     title: "Pipe, Valves, Fittings & Flanges",
     tone: "accent",
-    href: "/products-and-services/pipes-fittings",
+    href: "/products-and-services/pvf",
   },
   {
     icon: Drill,

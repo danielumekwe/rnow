@@ -74,6 +74,81 @@ export const siteImages = {
   // Local, RNOW-provided photo — not a temporary reference image.
   featured: "/images/products/featured-coiled-line-pipe.png",
 
+  compressorsPage: {
+    // Local, RNOW-provided photos — not temporary reference images.
+    hero: "/images/air%20compressor/Air-Compressor-Dryer.jpg",
+    compressorsAndDryers: "/images/air%20compressor/Air-Compressors-and-Dryers-thumbnail.webp",
+    blowers: "/images/air%20compressor/ac-blower-thumbnail.webp",
+    features: "/images/air%20compressor/air-compressor.webp",
+  },
+
+  artificialLiftPage: {
+    // Local, RNOW-provided photos — not temporary reference images.
+    hero: "/images/air%20lift/Artificial_Lift_Systems.webp",
+    rodLift: "/images/air%20lift/Artificial_Lift_Thumbnails.webp",
+    pcp: "/images/air%20lift/ALS_PC_pump_thumbnail.jpg",
+    wellAutomation: "/images/air%20lift/well-automation-control-thumbnail.jpg",
+    flexFlow: "/images/air%20lift/Flex-Flow-Hydraulic-Jet-Pump.webp",
+    distributor: "/images/air%20lift/Artificial-lift_truck-pumpjack_thumb.png",
+    resources: "/images/air%20lift/resources.jpg",
+  },
+
+  drillingPage: {
+    // Local, RNOW-provided photos — not temporary reference images.
+    hero: "/images/Drilling%20%26%20Completions/Drilling_and_completions_thumbnail.webp",
+    oemSupplies: "/images/Drilling%20%26%20Completions/drilling-products-thumbnail.webp",
+    filtration: "/images/Drilling%20%26%20Completions/puradyn-thumbnail.webp",
+    wellCompletion: "/images/Drilling%20%26%20Completions/Clean_outs_and_drill_outs_thumb.jpg",
+    partner: "/images/Drilling%20%26%20Completions/Drilling-Consumables-Product-Box.jpg",
+    inventory: "/images/solutions/team-tablet.png",
+    procurement: "/images/software.png",
+    resources: "/images/air%20lift/resources.jpg",
+  },
+
+  electricalPage: {
+    // Local, RNOW-provided photos — not temporary reference images.
+    hero: "/images/Electrical/Electrical-thumbnail.jpg",
+    capitalProject: "/images/industries/technical-support.png",
+    powerService: "/images/industries/benefits.png",
+    resources: "/images/air%20lift/resources.jpg",
+  },
+
+  industrialSuppliesPage: {
+    // Local, RNOW-provided photos — not temporary reference images.
+    hero: "/images/Industrial%20%26%20Facilities%20Supplies/Industrial-and-Facilities-Supplies-Thumbnail.webp",
+    resources: "/images/air%20lift/resources.jpg",
+  },
+
+  instrumentationPage: {
+    // Local, RNOW-provided photos — not temporary reference images.
+    hero: "/images/Instrumentation%20and%20Measurement/Instrumentation-and-measurement_thumb.webp",
+    gauges: "/images/Instrumentation%20and%20Measurement/Instrumentation-and-measurement_gauges_thumb.webp",
+    fittings: "/images/Instrumentation%20and%20Measurement/Instrumentation-and-measurement_fittings_thumb.webp",
+    process: "/images/Instrumentation%20and%20Measurement/Crestwood-LACT-1420000014_08.webp",
+  },
+
+  paintsPage: {
+    // Local, RNOW-provided photos — not temporary reference images.
+    hero: "/images/Paints%20and%20Coatings/paint-and-coatings-thumbnail.webp",
+    coatings: "/images/Paints%20and%20Coatings/HP_coatings_thumb.webp",
+    stains: "/images/Paints%20and%20Coatings/Paints_and_stains_thumb.webp",
+    equipment: "/images/Paints%20and%20Coatings/Painting_equipment_thumb.webp",
+    tank: "/images/Paints%20and%20Coatings/painting-field-erected-tanks-from-harsh-environmental-conditions.webp",
+    benefits: "/images/Paints%20and%20Coatings/CE%20Franklin%20Edmonton%20-043.webp",
+  },
+
+  pvfPage: {
+    // Local, RNOW-provided photos — not temporary reference images.
+    hero: "/images/PVF/PVF.webp",
+    quality: "/images/PVF/Quality-inspection-%20with-Niton-XL2-XRF-Analyzer.webp",
+    whyChoose: "/images/PVF/Pipe-fittings-flanges-inventory.webp",
+  },
+
+  powerGenerationPage: {
+    // Local, RNOW-provided photo — not a temporary reference image.
+    hero: "/images/Power%20Generation/power-generation-thumbnail.webp",
+  },
+
   finalCta: unsplash("1565008447742-97f6f38c985c", { width: 2400 }),
 
   ecommerceCta: unsplash("1524230507669-5ff97982bb5e", { width: 2000 }),

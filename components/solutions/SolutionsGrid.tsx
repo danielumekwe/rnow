@@ -25,7 +25,7 @@ export default function SolutionsGrid() {
 
         <AnimatedSection delay={0.08} className="mt-10 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {solutionsGrid.map((card) => (
-            <div key={card.title} id={card.href.slice(1)} className="flex flex-col scroll-mt-28 bg-white p-7">
+            <div key={card.title} id={card.id} className="flex flex-col scroll-mt-28 bg-white p-7">
               <h3 className="text-xl font-bold leading-snug text-ink">
                 {card.title}
               </h3>

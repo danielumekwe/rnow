@@ -10,17 +10,17 @@ export type SolutionOffering = {
 export const solutionOfferings: SolutionOffering[] = [
   {
     label: "Supply Chain Management",
-    href: "#supply-chain-management",
+    href: "/solutions/supply-chain-management",
     icon: ArrowLeftRight,
   },
   {
     label: "Engineering, Design & Fabrication",
-    href: "#engineering-design-fabrication",
+    href: "/solutions/engineering-design-fabrication",
     icon: PencilRuler,
   },
   {
     label: "Digital Solutions & Technology",
-    href: "#digital-solutions-technology",
+    href: "/solutions#digital-solutions-technology",
     icon: Server,
   },
 ];

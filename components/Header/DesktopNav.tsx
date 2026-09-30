@@ -50,7 +50,7 @@ export default function DesktopNav() {
                     transition={{ duration: 0.18, ease: "easeOut" }}
                     className="absolute left-1/2 top-full z-40 w-[min(90vw,520px)] -translate-x-1/2 rounded-sm border border-gray-200 bg-white p-8 shadow-xl"
                   >
-                    <div className="grid grid-cols-2 gap-8">
+                    <div className={`grid gap-8 ${item.megaMenu.columns.length > 1 ? "grid-cols-2" : "grid-cols-1"}`}>
                       {item.megaMenu.columns.map((col, i) => (
                         <div key={i}>
                           {col.heading && (
@@ -58,7 +58,7 @@ export default function DesktopNav() {
                               {col.heading}
                             </p>
                           )}
-                          <ul className="space-y-2.5">
+                          <ul className={item.megaMenu!.columns.length === 1 && col.links.length > 8 ? "gap-x-8 space-y-2.5 sm:columns-2 [&>li]:break-inside-avoid" : "space-y-2.5"}>
                             {col.links.map((link) => (
                               <li key={link.label}>
                                 <Link

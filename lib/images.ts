@@ -167,6 +167,144 @@ export const siteImages = {
     store: "/images/industries/closing.png",
   },
 
+  toolsPage: {
+    // Local, RNOW-provided images — not temporary reference images.
+    hero: "/images/Tools/Tools-and-Welding_Thumbnails.jpg",
+    catalog: "/images/Tools/73ed91ba-5c17-47e1-84e1-477de04bf690.png",
+  },
+
+  supplyChainPage: {
+    // Local, RNOW-provided images — not temporary reference images.
+    flow: "/images/Supply%20chain%20management/dd66bed0-487e-470a-9f46-7ff349d2119a.png",
+    methodology: "/images/Supply%20chain%20management/scs-methodology.png",
+    accessNow: "/images/Supply%20chain%20management/AccessNOW_story-product-collage.webp",
+    materials: "/images/Supply%20chain%20management/Materials-Management-Thumbnail.webp",
+    sourcing: "/images/Supply%20chain%20management/Sourcing-and-Procurement-Thumbnail.webp",
+  },
+
+  engineeringPage: {
+    // Local, RNOW-provided photos — not temporary reference images.
+    whyBackground: "/images/Engineeering%20Design%20and%20Fabrication/Casper_fab_02.jpg",
+    capabilities: "/images/Engineeering%20Design%20and%20Fabrication/engineered-packages-vessels-and-modular-solutions-02-enhance.webp",
+    excellence: "/images/Engineeering%20Design%20and%20Fabrication/Tank-Battery-Design-Engineering-Challenges-800x500.webp",
+    closing: "/images/Engineeering%20Design%20and%20Fabrication/engineering-design-services-thumbnail.jpg",
+  },
+
+  safetyServicesPage: {
+    // Local, RNOW-provided photos — not temporary reference images.
+    hero: "/images/Safety%20Services/SS_turnaround_shutdown_support_thumb.webp",
+    fleet: "/images/solutions/oilfield-team.png",
+    resources: "/images/air%20lift/resources.jpg",
+  },
+
+  valveActuationPage: {
+    // Local, RNOW-provided photos — not temporary reference images.
+    hero: "/images/Valve%20Actuation%20and%20Automation/TVS-field-tech.jpg",
+    partnerBackground: "/images/Valve%20Actuation%20and%20Automation/TVS-8.jpg",
+    lifeCycle: "/images/Valve%20Actuation%20and%20Automation/TVS-life-cycle.webp",
+    optimize: "/images/Valve%20Actuation%20and%20Automation/TVS-13.webp",
+    carousel: [
+      "/images/Valve%20Actuation%20and%20Automation/tvs-modification-end-connection-alteration.jpeg",
+      "/images/Valve%20Actuation%20and%20Automation/TVS-2.jpg",
+      "/images/Valve%20Actuation%20and%20Automation/TVS-7.jpg",
+      "/images/Valve%20Actuation%20and%20Automation/TVS-10.jpg",
+      "/images/Valve%20Actuation%20and%20Automation/TVS-12.jpg",
+      "/images/Valve%20Actuation%20and%20Automation/TVS-14.jpg",
+    ],
+  },
+
+  artificialLiftOpsPage: {
+    // Local, RNOW-provided photos — not temporary reference images.
+    hero: "/images/air%20lift/Artificial_Lift_Systems.webp",
+    rrl: "/images/Artificial%20Lift/artificial-lift-thumbnail.jpg",
+    pcp: "/images/Artificial%20Lift/progressive-cavity-systems-thumbnail.jpg",
+    automation: "/images/Artificial%20Lift/well-automation-control-thumbnail.jpg",
+    flexFlow: "/images/Artificial%20Lift/Flex_Flow_HPS-trailer.jpg",
+    technical: "/images/air%20lift/Artificial-lift_truck-pumpjack_thumb.png",
+    trusted: "/images/Artificial%20Lift/Odessa_0397_ALS_with_cover_on_rod_lift.jpeg",
+  },
+
+  carbonPage: {
+    // Local, RNOW-provided photos — not temporary reference images.
+    hero: "/images/Carbon%20management/hero.png",
+    ecoVapor: "/images/Carbon%20management/EcoVapor_ZerO2-E25-render.webp",
+    airCompressor: "/images/Carbon%20management/Instrument-air-compressor-skid_thumb.webp",
+    vru: "/images/Process%20and%20Production%20Equipment/VRU_Thumbnails.webp",
+    lowEmissions: "/images/Carbon%20management/Low-emissions_products_thumb.webp",
+    sustainable: "/images/Carbon%20management/Pearland-pipe-yard.webp",
+  },
+
+  energyTransitionPage: {
+    // Local, RNOW-provided images — not temporary reference images.
+    hero: "/images/Energy%20Transition/Energy_transition_3-steps.webp",
+    ccus: "/images/Energy%20Transition/02c246e1-f048-4a13-b31b-9808d48fba56.png",
+    hydrogen: "/images/Energy%20Transition/dd7eb0ee-dac1-4390-a9ca-fb9fa99a9c38.png",
+    fuels: "/images/industries/hero.png",
+  },
+
+  onshoreDrillingPage: {
+    // Local, RNOW-provided images — not temporary reference images.
+    hero: "/images/industries/hero.png",
+    rigDiagram: "/images/Onshore%20Drilling/oildrill.png",
+    accessNow: "/images/Onshore%20Drilling/AccessNOW_story-product-collage.webp",
+    devices: "/images/software.png",
+    products: "/images/Onshore%20Drilling/drilling-and-completions-thumbnail.jpg",
+  },
+
+  offshoreDrillingPage: {
+    // Local, RNOW-provided images — not temporary reference images.
+    hero: "/images/industries/hero.png",
+    diagram: "/images/Offshore%20Drilling/RNOW-Offshore-Rigs-that-are-supplied-with-products.jpg",
+    devices: "/images/software.png",
+    platform: "/images/Offshore%20Drilling/Container-Ship-Heading-to-Port.jpg",
+  },
+
+  midstreamPage: {
+    // Local, RNOW-provided images — not temporary reference images.
+    hero: "/images/Midstream/oil%20and%20gas.jpeg",
+    diagram: "/images/Midstream/Midstream-transmission-project.webp",
+    pvf: "/images/Midstream/PVF.jpg",
+    pumps: "/images/Midstream/Pumps_thumbnail.jpg",
+    production: "/images/Midstream/Tank-Battery-Test-Separator-and-Pipe-Racks.jpg",
+    instrumentation: "/images/Midstream/instrumentation-and-measurement-thumbnail.jpg",
+    flexFlow: "/images/Midstream/Flex_Flow_HPS-trailer-tanks.jpg",
+    ecoVapor: "/images/Midstream/EcoVapor-Mobile-ZerO-field-trailer.webp",
+    serviceTruck: "/images/Midstream/Odessa-Pumps-Field-Service-Truck.webp",
+    devices: "/images/software.png",
+  },
+
+  miningPage: {
+    // Local, RNOW-provided images — not temporary reference images.
+    hero: "/images/Mining/Mining%20hero.jpeg",
+    supplyModel: "/images/Mining/Mining_DNOW-supply-chain-model.webp",
+    rental: "/images/Mining/rental-pump-fleet-thumbnail.jpg",
+    electrical: "/images/Mining/MacLean-Electrical-Product-Categories-Thumbnail.jpg",
+    flexFlow: "/images/Mining/Flex_Flow_HPS-water-transfer.jpg",
+    why: "/images/Mining/Whhy%20RNOW.jpg",
+    handshake: "/images/Mining/Mining_handshake.webp",
+  },
+
+  utilitiesPage: {
+    // Local, RNOW-provided images — not temporary reference images.
+    hero: "/images/downstream%20/hero.webp",
+    pipeline: "/images/downstream%20/utilites-gas-distribution-pipeline.webp",
+    safety: "/images/Safety%20Services/rnow.png",
+    devices: "/images/software.png",
+    closing: "/images/solutions/team-tablet.png",
+  },
+
+  tankBatteriesPage: {
+    // Local, RNOW-provided images — not temporary reference images.
+    hero: "/images/Tank%20batteries/Heero.png",
+    experts: "/images/industries/technical-support.png",
+    engineering: "/images/Engineeering%20Design%20and%20Fabrication/engineered-packages-vessels-and-modular-solutions-02-enhance.webp",
+    pumps: "/images/Pump%20and%20pac%20kages/Pumps_thumbnail.webp",
+    flexFlow: "/images/Pump%20and%20pac%20kages/Rental-pumps_Flex-Flow-HPS.jpg",
+    ecoVapor: "/images/Carbon%20management/EcoVapor_ZerO2-E25-render.webp",
+    store: "/images/software.png",
+    partner: "/images/solutions-page/partner.png",
+  },
+
   finalCta: unsplash("1565008447742-97f6f38c985c", { width: 2400 }),
 
   ecommerceCta: unsplash("1524230507669-5ff97982bb5e", { width: 2000 }),

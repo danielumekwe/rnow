@@ -4,7 +4,7 @@ import AnimatedSection from "@/components/AnimatedSection";
 
 export default function SolutionsSupplyChain() {
   return (
-    <section className="bg-ink-700 py-16 text-white sm:py-20">
+    <section className="bg-[#525e71] py-16 text-white sm:py-20">
       <div className="mx-auto max-w-[1400px] px-6 xl:px-10">
         <div className="grid grid-cols-1 items-center gap-12 lg:grid-cols-2 lg:gap-16">
           <AnimatedSection>

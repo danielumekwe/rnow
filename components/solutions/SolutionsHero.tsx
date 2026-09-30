@@ -8,7 +8,7 @@ import AnimatedSection from "@/components/AnimatedSection";
 export default function SolutionsHero() {
   return (
     <section className="relative overflow-hidden bg-ink text-white">
-      <div className="relative min-h-[560px]">
+      <div className="relative min-h-[460px]">
         <Image
           src={siteImages.solutionsPage.hero}
           alt="RNOW technicians reviewing equipment at an industrial site"

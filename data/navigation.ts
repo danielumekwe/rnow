@@ -34,6 +34,7 @@ export const mainNav: NavItem[] = [
             { label: "Air Compressors & Blowers", href: "/products-and-services/compressors" },
             { label: "Artificial Lift Solutions", href: "/products-and-services/artificial-lift" },
             { label: "Drilling & Completions", href: "/products-and-services/drilling-completions" },
+            { label: "Electrical & Cable", href: "/products-and-services/electrical-products" },
             { label: "Industrial & Facility Supplies", href: "/products-and-services/industrial-facility-supplies" },
             { label: "Instrumentation & Measurement", href: "/products-and-services/instrumentation-measurement" },
             { label: "Paints & Coatings", href: "/products-and-services/paints-coatings" },
@@ -42,15 +43,7 @@ export const mainNav: NavItem[] = [
             { label: "Process & Production Equipment", href: "/products-and-services/process-production-equipment" },
             { label: "Pumps & Packages", href: "/products-and-services/pumps-packages" },
             { label: "Safety & PPE", href: "/products-and-services/safety-ppe" },
-          ],
-        },
-        {
-          heading: "Services",
-          links: [
-            { label: "Tools & MRO", href: "/products-and-services/tools-mro" },
-            { label: "Electrical Products", href: "/products-and-services/electrical-products" },
-            { label: "Safety Equipment", href: "/products-and-services/safety-equipment" },
-            { label: "Fasteners & Hardware", href: "/products-and-services/fasteners-hardware" },
+            { label: "Tools", href: "/products-and-services/tools" },
           ],
         },
       ],
@@ -66,10 +59,10 @@ export const mainNav: NavItem[] = [
           heading: "Solutions",
           links: [
             { label: "Digital Solutions and Technology", href: "/solutions#digital-solutions-technology" },
-            { label: "Engineering, Design and Fabrication", href: "/solutions#engineering-design-fabrication" },
-            { label: "Safety Services and Turnaround Support", href: "/solutions#safety-services-turnaround-support" },
-            { label: "Supply Chain and Materials Management", href: "/solutions#supply-chain-materials-management" },
-            { label: "Valve Actuation and Automation", href: "/solutions#valve-actuation-automation" },
+            { label: "Engineering, Design and Fabrication", href: "/solutions/engineering-design-fabrication" },
+            { label: "Safety Services and Turnaround Support", href: "/solutions/safety-services" },
+            { label: "Supply Chain and Materials Management", href: "/solutions/supply-chain-management" },
+            { label: "Valve Actuation and Automation", href: "/solutions/valve-actuation-automation" },
           ],
         },
       ],
@@ -82,19 +75,19 @@ export const mainNav: NavItem[] = [
     megaMenu: {
       columns: [
         {
-          heading: "Industries We Serve",
-          links: [
-            { label: "Oil & Gas Operations", href: "/industries#oil-gas-operations" },
-            { label: "Alternative Energy & Renewables", href: "/industries#renewables" },
-            { label: "Mining & Minerals", href: "/industries#mining-minerals" },
-          ],
-        },
-        {
           heading: "",
           links: [
             { label: "Chemical Processing", href: "/industries#chemical-processing" },
             { label: "Water & Wastewater", href: "/industries#water-wastewater" },
             { label: "Pharmaceutical", href: "/industries#pharmaceutical" },
+            { label: "Artificial Lift Operations", href: "/industries/artificial-lift-operations" },
+            { label: "Carbon Management & Decarbonization", href: "/industries/carbon-management" },
+            { label: "Energy Transition", href: "/industries/energy-transition" },
+            { label: "Onshore Drilling Rigs Operations", href: "/industries/onshore-drilling" },
+            { label: "Offshore Drilling Rigs Operations", href: "/industries/offshore-drilling" },
+            { label: "Midstream Pipeline and Transmission", href: "/industries/midstream" },
+            { label: "Utilities & Gas Distribution", href: "/industries/utilities-gas-distribution" },
+            { label: "Tank Batteries & Production Facilities", href: "/industries/tank-batteries" },
           ],
         },
       ],
@@ -147,9 +140,9 @@ export const footerNav: { heading: string; links: NavLink[] }[] = [
     heading: "Solutions",
     links: [
       { label: "Digital Solutions and Technology", href: "/solutions#digital-solutions-technology" },
-      { label: "Engineering, Design and Fabrication", href: "/solutions#engineering-design-fabrication" },
-      { label: "Supply Chain and Materials Management", href: "/solutions#supply-chain-materials-management" },
-      { label: "Valve Actuation and Automation", href: "/solutions#valve-actuation-automation" },
+      { label: "Engineering, Design and Fabrication", href: "/solutions/engineering-design-fabrication" },
+      { label: "Supply Chain and Materials Management", href: "/solutions/supply-chain-management" },
+      { label: "Valve Actuation and Automation", href: "/solutions/valve-actuation-automation" },
     ],
   },
   {

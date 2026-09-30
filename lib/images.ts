@@ -149,6 +149,24 @@ export const siteImages = {
     hero: "/images/Power%20Generation/power-generation-thumbnail.webp",
   },
 
+  processPage: {
+    // Local, RNOW-provided photos — not temporary reference images.
+    hero: "/images/Process%20and%20Production%20Equipment/Process-Equipment_Thumbnails.webp",
+    resources: "/images/air%20lift/resources.jpg",
+  },
+
+  pumpsPage: {
+    // Local, RNOW-provided photos — not temporary reference images.
+    hero: "/images/Pump%20and%20pac%20kages/Pumps_thumbnail.webp",
+    resources: "/images/air%20lift/resources.jpg",
+  },
+
+  safetyPage: {
+    // Local, RNOW-provided photos — not temporary reference images.
+    hero: "/images/Safety%20and%20PPE/safety-and-ppe-thumbnail.webp",
+    store: "/images/industries/closing.png",
+  },
+
   finalCta: unsplash("1565008447742-97f6f38c985c", { width: 2400 }),
 
   ecommerceCta: unsplash("1524230507669-5ff97982bb5e", { width: 2000 }),

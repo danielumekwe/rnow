@@ -39,6 +39,9 @@ export const mainNav: NavItem[] = [
             { label: "Paints & Coatings", href: "/products-and-services/paints-coatings" },
             { label: "Pipe, Valves & Fittings (PVF)", href: "/products-and-services/pvf" },
             { label: "Power Generation", href: "/products-and-services/power-generation" },
+            { label: "Process & Production Equipment", href: "/products-and-services/process-production-equipment" },
+            { label: "Pumps & Packages", href: "/products-and-services/pumps-packages" },
+            { label: "Safety & PPE", href: "/products-and-services/safety-ppe" },
           ],
         },
         {

@@ -10,6 +10,8 @@ import { siteImages } from "@/lib/images";
 
 type Params = { slug: string };
 
+export const dynamicParams = false;
+
 export function generateStaticParams(): Params[] {
   return productCategories.map((category) => ({ slug: category.slug }));
 }

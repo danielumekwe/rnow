@@ -5,14 +5,20 @@ import { Plus } from "lucide-react";
 import type { Faq } from "@/data/aboutFaqs";
 import AnimatedSection from "@/components/AnimatedSection";
 
-export default function FaqAccordion({ faqs }: { faqs: Faq[] }) {
+export default function FaqAccordion({
+  faqs,
+  title = "FAQs",
+}: {
+  faqs: Faq[];
+  title?: string;
+}) {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
 
   return (
     <section className="bg-surface py-16 sm:py-20">
       <div className="mx-auto max-w-[1400px] px-6 xl:px-10">
         <AnimatedSection>
-          <h2 className="text-3xl font-normal text-ink sm:text-4xl">FAQs</h2>
+          <h2 className="text-3xl font-normal text-ink sm:text-4xl">{title}</h2>
         </AnimatedSection>
 
         <AnimatedSection delay={0.08} className="mt-6 divide-y divide-gray-200 border-t border-gray-200">

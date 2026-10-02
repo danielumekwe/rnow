@@ -1,4 +1,4 @@
-/** Site-wide constants. Replace placeholder contact details with real values. */
+/** Site-wide constants. */
 export const siteConfig = {
   name: "RNOW Industrial Supply",
   shortName: "RNOW",

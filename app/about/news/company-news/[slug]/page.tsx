@@ -39,7 +39,6 @@ export default async function NewsArticlePage({ params }: { params: Promise<Para
       description={article.excerpt}
       image={article.image}
       imageAlt=""
-      sampleWhat="This article"
       backHref={BASE}
       backLabel="Back to Company News"
       related={others}

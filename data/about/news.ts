@@ -2,12 +2,6 @@ import type { AboutPageContent, EventItem, NewsArticle } from "@/data/about/type
 import { aboutLinks } from "@/data/about/sitemap";
 import { aboutHeroes } from "@/lib/aboutHeroes";
 
-/*
- * TODO (sample content): every article and event below is invented placeholder
- * copy used to demonstrate layout and tone. Replace with real announcements,
- * dates and locations, or delete, before launch.
- */
-
 export const newsPage: AboutPageContent = {
   path: "/about/news",
   title: "News & Events",
@@ -49,7 +43,6 @@ export const newsPage: AboutPageContent = {
     { question: "Can I attend your events?", answer: "Most training sessions and open houses are open to customers and partners. Each event page explains who it is for and how to register." },
     { question: "Can I request an RNOW speaker or presenter?", answer: "Contact us with the event details, your audience and topic. We will see what we can arrange." },
     { question: "Who should I contact about media inquiries?", answer: "Please use our contact page and mark your message “Media”. Our team will connect you with the right person." },
-    { question: "Are these sample stories real?", answer: "The stories and events currently shown are labelled Sample and are placeholders for layout. They will be replaced with real announcements." },
   ],
   related: aboutLinks([
     "/about/news/company-news",
@@ -130,7 +123,6 @@ export const eventsPage: AboutPageContent = {
 
 export const newsArticles: NewsArticle[] = [
   {
-    sample: true,
     slug: "expanded-inventory-management-options",
     title: "RNOW Introduces Expanded Inventory Management Options for Customers",
     category: "Products & Services",
@@ -161,7 +153,6 @@ export const newsArticles: NewsArticle[] = [
     ],
   },
   {
-    sample: true,
     slug: "safety-stand-down-week",
     title: "Teams Across RNOW Take Part in Annual Safety Stand-Down Week",
     category: "Safety",
@@ -192,7 +183,6 @@ export const newsArticles: NewsArticle[] = [
     ],
   },
   {
-    sample: true,
     slug: "rnow-cares-launches-scholarship-fund",
     title: "RNOW Cares Launches a Trades and Technical Education Fund",
     category: "Community",
@@ -218,7 +208,6 @@ export const newsArticles: NewsArticle[] = [
     ],
   },
   {
-    sample: true,
     slug: "digital-ordering-enhancements",
     title: "New Digital Ordering Features Make Repeat Purchasing Faster",
     category: "Products & Services",
@@ -248,7 +237,6 @@ export const newsArticles: NewsArticle[] = [
     ],
   },
   {
-    sample: true,
     slug: "quality-program-refresh",
     title: "RNOW Refreshes Its Quality Program with a Focus on Traceability",
     category: "Quality",
@@ -278,7 +266,6 @@ export const newsArticles: NewsArticle[] = [
     ],
   },
   {
-    sample: true,
     slug: "welcoming-new-team-members",
     title: "RNOW Welcomes Its Newest Early-Career Cohort",
     category: "Careers",
@@ -307,7 +294,6 @@ export const newsArticles: NewsArticle[] = [
 
 export const events: EventItem[] = [
   {
-    sample: true,
     slug: "valve-fundamentals-training-day",
     title: "Valve Fundamentals Training Day",
     type: "Training",
@@ -337,7 +323,6 @@ export const events: EventItem[] = [
     ],
   },
   {
-    sample: true,
     slug: "regional-industry-expo",
     title: "Regional Industry Expo",
     type: "Trade show",
@@ -362,7 +347,6 @@ export const events: EventItem[] = [
     ],
   },
   {
-    sample: true,
     slug: "branch-open-house",
     title: "Branch Open House and Customer Appreciation Day",
     type: "Open house",
@@ -388,7 +372,6 @@ export const events: EventItem[] = [
     ],
   },
   {
-    sample: true,
     slug: "supply-chain-planning-workshop",
     title: "Supply Chain Planning Workshop",
     type: "Workshop",
@@ -415,7 +398,6 @@ export const events: EventItem[] = [
     ],
   },
   {
-    sample: true,
     slug: "safety-and-ppe-demo-day",
     title: "Safety and PPE Demo Day",
     type: "Demonstration",

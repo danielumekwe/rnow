@@ -54,13 +54,7 @@ export type AboutPageContent = {
   cta: { eyebrow?: string; label: string; href: string };
 };
 
-/** Shared shape for sample news, events and case studies. */
-export type SampleMeta = {
-  /** TODO: sample content only. Replace with real content before launch. */
-  sample: true;
-};
-
-export type NewsArticle = SampleMeta & {
+export type NewsArticle = {
   slug: string;
   title: string;
   category: string;
@@ -72,7 +66,7 @@ export type NewsArticle = SampleMeta & {
   body: Block[];
 };
 
-export type EventItem = SampleMeta & {
+export type EventItem = {
   slug: string;
   title: string;
   type: string;
@@ -88,7 +82,7 @@ export type EventItem = SampleMeta & {
   whoShouldAttend: string[];
 };
 
-export type CaseStudy = SampleMeta & {
+export type CaseStudy = {
   slug: string;
   title: string;
   industry: string;

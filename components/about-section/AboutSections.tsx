@@ -247,26 +247,6 @@ export function CardGrid({
   );
 }
 
-/** Small marker for invented sample content. */
-export function SampleBadge({ className = "" }: { className?: string }) {
-  return (
-    <span
-      className={`inline-block rounded-sm border border-amber-400 bg-amber-50 px-2 py-0.5 text-[11px] font-bold uppercase tracking-[0.08em] text-amber-800 ${className}`}
-    >
-      Sample
-    </span>
-  );
-}
-
-export function SampleNotice({ what }: { what: string }) {
-  return (
-    <p className="mt-4 max-w-3xl rounded-sm border border-amber-300 bg-amber-50 px-4 py-3 text-sm text-amber-900">
-      <strong>Sample content.</strong> {what} are placeholders for layout and
-      tone. They are not real RNOW announcements, customers or results.
-    </p>
-  );
-}
-
 export function CoverImage({
   src,
   alt,

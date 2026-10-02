@@ -35,7 +35,7 @@ export default function ContactPage() {
                 <li className="flex items-start gap-3">
                   <MapPin className="mt-0.5 h-5 w-5 shrink-0 text-accent" aria-hidden="true" />
                   <span>
-                    {siteConfig.contact.address.line1}, {siteConfig.contact.address.line2}
+                    {siteConfig.contact.address.line1}
                     <br />
                     {siteConfig.contact.address.city}, {siteConfig.contact.address.state}{" "}
                     {siteConfig.contact.address.zip}

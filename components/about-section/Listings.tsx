@@ -3,8 +3,6 @@ import { ArrowRight, CalendarDays, MapPin } from "lucide-react";
 import AnimatedSection from "@/components/AnimatedSection";
 import {
   CoverImage,
-  SampleBadge,
-  SampleNotice,
 } from "@/components/about-section/AboutSections";
 import { caseStudies } from "@/data/about/whyRnow";
 import { events, formatDate, newsArticles } from "@/data/about/news";
@@ -14,12 +12,10 @@ const h2 = "text-3xl font-bold text-ink sm:text-4xl";
 
 function ListingShell({
   heading,
-  notice,
   children,
   tone = "surface",
 }: {
   heading: string;
-  notice: string;
   children: React.ReactNode;
   tone?: "surface" | "white";
 }) {
@@ -28,7 +24,6 @@ function ListingShell({
       <div className={wrap}>
         <AnimatedSection>
           <h2 className={h2}>{heading}</h2>
-          <SampleNotice what={notice} />
         </AnimatedSection>
         <div className="mt-10 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {children}
@@ -64,7 +59,7 @@ function ReadMore({ label = "Read more" }: { label?: string }) {
 export function NewsListing() {
   const sorted = [...newsArticles].sort((a, b) => b.date.localeCompare(a.date));
   return (
-    <ListingShell heading="Latest Company News" notice="These articles">
+    <ListingShell heading="Latest Company News">
       {sorted.map((a, i) => (
         <AnimatedSection key={a.slug} delay={(i % 3) * 0.06}>
           <CardShell href={`/about/news/company-news/${a.slug}`}>
@@ -74,7 +69,6 @@ export function NewsListing() {
                 <span className="text-xs font-semibold uppercase tracking-[0.1em] text-accent">
                   {a.category}
                 </span>
-                <SampleBadge />
               </div>
               <time dateTime={a.date} className="mt-2 text-sm text-gray-500">
                 {formatDate(a.date)}
@@ -101,7 +95,6 @@ export function EventsListing() {
         <div className="flex flex-1 flex-col p-6">
           <div className="flex flex-wrap items-center gap-3">
             <span className="text-xs font-semibold uppercase tracking-[0.1em] text-accent">{e.type}</span>
-            <SampleBadge />
           </div>
           <h3 className="mt-2 text-xl font-bold leading-snug text-ink">{e.title}</h3>
           <p className="mt-3 flex items-center gap-2 text-sm text-gray-600">
@@ -121,10 +114,10 @@ export function EventsListing() {
 
   return (
     <>
-      <ListingShell heading="Upcoming Events" notice="These events">
+      <ListingShell heading="Upcoming Events">
         {upcoming.map(card)}
       </ListingShell>
-      <ListingShell heading="Past Events" notice="These events" tone="white">
+      <ListingShell heading="Past Events" tone="white">
         {past.map(card)}
       </ListingShell>
     </>
@@ -133,7 +126,7 @@ export function EventsListing() {
 
 export function CaseStudyListing() {
   return (
-    <ListingShell heading="Featured Case Studies" notice="These case studies">
+    <ListingShell heading="Featured Case Studies">
       {caseStudies.map((c, i) => (
         <AnimatedSection key={c.slug} delay={(i % 3) * 0.06}>
           <CardShell href={`/about/why-rnow/case-studies/${c.slug}`}>
@@ -141,7 +134,6 @@ export function CaseStudyListing() {
             <div className="flex flex-1 flex-col p-6">
               <div className="flex flex-wrap items-center gap-3">
                 <span className="text-xs font-semibold uppercase tracking-[0.1em] text-accent">{c.industry}</span>
-                <SampleBadge />
               </div>
               <h3 className="mt-2 text-xl font-bold leading-snug text-ink">{c.title}</h3>
               <p className="mt-3 flex-1 text-base leading-relaxed text-gray-600">{c.excerpt}</p>

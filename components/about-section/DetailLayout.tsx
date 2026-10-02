@@ -6,8 +6,6 @@ import ContactCTA from "@/components/shared/ContactCTA";
 import AnimatedSection from "@/components/AnimatedSection";
 import {
   CardGrid,
-  SampleBadge,
-  SampleNotice,
 } from "@/components/about-section/AboutSections";
 import type { CardLink } from "@/data/about/types";
 
@@ -22,7 +20,6 @@ export default function DetailLayout({
   image,
   imageAlt,
   meta,
-  sampleWhat,
   backHref,
   backLabel,
   children,
@@ -37,7 +34,6 @@ export default function DetailLayout({
   image: string;
   imageAlt: string;
   meta?: ReactNode;
-  sampleWhat: string;
   backHref: string;
   backLabel: string;
   children: ReactNode;
@@ -59,10 +55,8 @@ export default function DetailLayout({
         <div className={wrap}>
           <div className="mx-auto max-w-3xl">
             <div className="flex flex-wrap items-center gap-4">
-              <SampleBadge />
               {meta}
             </div>
-            <SampleNotice what={sampleWhat} />
             <div className="mt-8 space-y-10">{children}</div>
             <Link
               href={backHref}

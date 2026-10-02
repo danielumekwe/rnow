@@ -40,7 +40,6 @@ export default async function EventPage({ params }: { params: Promise<Params> })
       description={event.excerpt}
       image={event.image}
       imageAlt=""
-      sampleWhat="This event"
       backHref={BASE}
       backLabel="Back to Events"
       related={others}

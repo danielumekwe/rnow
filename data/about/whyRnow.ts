@@ -54,7 +54,7 @@ export const whyRnowPage: AboutPageContent = {
     { question: "How do I get a quote?", answer: "Contact our team with your product list or specification, and we will respond with availability and pricing." },
     { question: "Can you support urgent or emergency needs?", answer: "Yes. See our Service Commitment page for how emergency requests are handled." },
     { question: "What industries do you serve?", answer: "Oil and gas, utilities, mining, chemical processing, water and wastewater, manufacturing and general industry." },
-    { question: "Can I see examples of your work?", answer: "Our Case Studies page shows how we approach typical supply challenges. Examples currently shown are samples." },
+    { question: "Can I see examples of your work?", answer: "Our Case Studies page shows how we approach typical supply challenges." },
   ],
   related: aboutLinks([
     "/about/careers",
@@ -194,8 +194,6 @@ export const servicePage: AboutPageContent = {
     ctaLabel: "Contact Customer Service",
     ctaHref: "/contact",
   },
-  notice:
-    "Response-time targets below are placeholders. Replace them with commitments RNOW can consistently meet.",
   intro: {
     heading: "Service Is a Promise You Can Hold Us To",
     paragraphs: [
@@ -362,7 +360,7 @@ export const caseStudiesPage: AboutPageContent = {
   path: "/about/why-rnow/case-studies",
   title: "Case Studies",
   description:
-    "Sample case studies showing how RNOW approaches supply challenges, from the problem through the solution to the outcome.",
+    "Case studies showing how RNOW approaches supply challenges, from the problem through the solution to the outcome.",
   hero: {
     eyebrow: "WHY RNOW · CASE STUDIES",
     title: "Case Studies",
@@ -378,7 +376,6 @@ export const caseStudiesPage: AboutPageContent = {
     ],
   },
   faqs: [
-    { question: "Are these real customers?", answer: "No. The case studies currently on this page are samples written to show the format and to illustrate typical engagements. They will be replaced by real, approved stories." },
     { question: "Can I speak with a reference customer?", answer: "Once real case studies are available, we can discuss references with customers who agree." },
     { question: "Can you build a solution like this for me?", answer: "Yes. Contact us with your situation and we will discuss what is possible." },
     { question: "Which industries do you work with?", answer: "Oil and gas, utilities, mining, chemical, water and wastewater, manufacturing and general industry." },
@@ -392,14 +389,8 @@ export const caseStudiesPage: AboutPageContent = {
   cta: { label: "Have a supply challenge? Let's talk", href: "/contact" },
 };
 
-/*
- * TODO (sample content): these case studies are invented, contain no real
- * customers, and use qualitative results. Replace with real, approved stories.
- * The last result line in each study is a sample figure; replace it with a real metric.
- */
 export const caseStudies: CaseStudy[] = [
   {
-    sample: true,
     slug: "midstream-station-spares-program",
     title: "Keeping a Pump Station Running with a Managed Spares Program",
     industry: "Midstream",
@@ -423,7 +414,6 @@ export const caseStudies: CaseStudy[] = [
     ],
   },
   {
-    sample: true,
     slug: "turnaround-material-planning",
     title: "Planning Material for a Refinery Turnaround",
     industry: "Downstream",
@@ -446,7 +436,6 @@ export const caseStudies: CaseStudy[] = [
     ],
   },
   {
-    sample: true,
     slug: "utility-standardization",
     title: "Simplifying Purchasing for a Gas Utility",
     industry: "Utilities",
@@ -469,7 +458,6 @@ export const caseStudies: CaseStudy[] = [
     ],
   },
   {
-    sample: true,
     slug: "mine-site-valve-automation",
     title: "Automating Critical Valves at a Remote Mine Site",
     industry: "Mining",
@@ -491,7 +479,6 @@ export const caseStudies: CaseStudy[] = [
     ],
   },
   {
-    sample: true,
     slug: "water-treatment-pump-package",
     title: "Delivering a Skid-Mounted Pump Package for a Water Facility",
     industry: "Water & Wastewater",

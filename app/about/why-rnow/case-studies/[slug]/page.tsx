@@ -38,7 +38,6 @@ export default async function CaseStudyPage({ params }: { params: Promise<Params
       description={study.excerpt}
       image={study.image}
       imageAlt=""
-      sampleWhat="This case study"
       backHref={BASE}
       backLabel="Back to Case Studies"
       related={others}

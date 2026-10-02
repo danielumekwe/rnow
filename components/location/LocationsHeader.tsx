@@ -29,7 +29,7 @@ export default function LocationsHeader() {
             {siteConfig.contact.address.line1}
             <br />
             {siteConfig.contact.address.city}, {siteConfig.contact.address.state}{" "}
-            {siteConfig.contact.address.zip} {siteConfig.contact.address.country === "United States" ? "USA" : siteConfig.contact.address.country}
+            {siteConfig.contact.address.zip}, {siteConfig.contact.address.country}
           </p>
           <a
             href={`tel:${siteConfig.contact.phoneHref}`}

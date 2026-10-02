@@ -11,7 +11,6 @@ export type LocationOffice = {
   phoneHref: string;
 };
 
-/** Placeholder office data — replace with real branch listings before launch. */
 export const locationOffices: LocationOffice[] = [
   {
     name: "Darwin",

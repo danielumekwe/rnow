@@ -51,7 +51,7 @@ export default function Solutions() {
       >
         <div className="flex flex-col justify-center bg-[#6b0f14] px-8 py-14 sm:px-14 sm:py-16">
           <h3 className="max-w-lg text-2xl font-semibold leading-snug text-white sm:text-3xl">
-            With over 160 years of history, RNOW is more than just a
+            With many years of history, RNOW is more than just a
             supplier—we are your partners in innovation.
           </h3>
           <p className="mt-5 max-w-lg text-base leading-relaxed text-white/80">

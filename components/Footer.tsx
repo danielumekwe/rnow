@@ -82,10 +82,10 @@ export default function Footer() {
               <li className="flex items-start gap-3">
                 <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-accent-light" aria-hidden="true" />
                 <span>
-                  {siteConfig.contact.address.line1}, {siteConfig.contact.address.line2}
+                  {siteConfig.contact.address.line1}
                   <br />
                   {siteConfig.contact.address.city}, {siteConfig.contact.address.state}{" "}
-                  {siteConfig.contact.address.zip}
+                  {siteConfig.contact.address.zip}, {siteConfig.contact.address.country}
                 </span>
               </li>
             </ul>

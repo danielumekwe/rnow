@@ -10,14 +10,12 @@ export const siteConfig = {
     phone: "+1 (800) 555-0199",
     phoneHref: "+18005550199",
     email: "info@rnowindustrial.com",
-    // Placeholder — do not treat as a real registered address.
     address: {
-      line1: "1000 Industrial Parkway",
-      line2: "Suite 400",
-      city: "Houston",
-      state: "TX",
-      zip: "77001",
-      country: "United States",
+      line1: "10401 W Reno Ave",
+      city: "Oklahoma City",
+      state: "OK",
+      zip: "73127",
+      country: "USA",
     },
   },
   social: {

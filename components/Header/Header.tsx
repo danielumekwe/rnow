@@ -56,7 +56,7 @@ export default function Header() {
             </button>
 
             <Button href="/contact" variant="primary" showArrow={false} className="hidden lg:inline-flex">
-              Talk to Us
+              Contact Us
             </Button>
 
             <button
